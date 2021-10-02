@@ -1,0 +1,17 @@
+{
+  "name": "bk_graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "staging": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "10.0.0",
+    "graphql-yoga": "1.18.3",
+    "js-logger": "^1.6.1",
+    "mongoose": "6.0.8",
+    "nodemon": "2.0.13",
+    "response-time": "^2.3.2"
+  }
+}
