@@ -13,7 +13,7 @@ mongoose
     useNewUrlParser: true,
   })
   .then(() => logger.info("Database connected successfully"))
-  .catch(() => logger.info("Database connection error"));
+  .catch(() => logger.error("Database connection error"));
 
 const server = new GraphQLServer({
   typeDefs: path.resolve(__dirname, "schemas/schema.graphql"),
